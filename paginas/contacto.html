@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eve | Official Site</title>
+
+    <link rel="icon" href="../imagenes/logo.jpg">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- FONT - LINKS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- FUENTES TAMAÑO 400 - 700 Y 900-->
+
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+</head>
+<body>
+
+    <!-- CABECERA  -->
+    
+    <header class="showcase">
+        <div class="showcase__logo">
+            <a href="../Index.html"><img src="../imagenes/header_logo.png" alt="logo" class="showcase__navLogo"></a>
+        </div>
+        <nav>
+            <ul class="showcase__navList">
+                <li><a href="../index.html" class="showcase__navLink">INICIO</a></li>
+                <li><a href="./perfil.html" class="showcase__navLink">PERFIL</a></li>
+                <li>|</li>
+                <li><a href="./discografia.html" class="showcase__navLink">DISCOGRAFIA</a></li>
+                <li><a href="./colaboraciones.html" class="showcase__navLink">COLABORACIONES</a></li>
+                <li>|</li>
+                <li><a href="https://eveofficialstore.com/" target="_blank" class="showcase__navLink">TIENDA</a></li>
+                <li><a href="./contacto.html" class="showcase__navLink">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- FORMULARIO -->
+
+    <div class="contacto__conteiner">
+        <div class="contacto__titulo">
+            <p>Contacto</p>
+        </div>
+        <div class="formulario__conteiner">
+            <form action="" class="formulario">
+                    <div class="formulario__nombreEmpresa">
+                        <label for="nombre"><p>Nombre de la empresa:</p></label>
+                        <input type="text" name="nombre" id="nombre" required>
+                    </div>
+                    <div class="formulario__email">
+                        <label for="email"><p>Email de contacto:</p></label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="formulario__mensaje">
+                        <label for="mensaje"><p>Información:</p></label>
+                        <textarea name="mensaje" id="mensaje" cols="20" rows="10"></textarea required>
+                    </div>
+                    <div class="formulario__terminos">
+                        <label for="acepta">Terminos y Condiciones</label>
+                        <input type="checkbox" name="acepta" id="acepta" required>
+                    </div>
+                    <div class="formulario__botones">
+                        <input type="submit" value="Enviar" class="form__enviar">
+                        <input type="reset" value="Limpiar Formulario" class="form__enviar">
+                    </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="hr__todos--contacto">
+        <hr>
+    </div>
+
+<!-- PIE DE PAGINA -->
+
+    <footer class="footer__piePagina">
+        <div class="footer__contacto footer--texto">
+            <h4>Contacto</h4>
+
+            <p>+54 1122334455</p>
+            <p>correo@gmail.com</p>
+        </div>
+        <div class="footer__redesSociales footer--texto">
+            <h4>Redes Sociales</h4>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="footer__navegacion footer--texto">
+            <p><a href="./index.html" class="footer__enlace">Inicio</a></p>
+            <p><a href="./paginas/perfil.html" class="footer__enlace">Perfil</a></p>
+            <p><a href="./paginas/discografia.html" class="footer__enlace">Discografia</a></p>
+        </div>
+        <div class="footer__navegacionDos footer--texto">
+            <p><a href="./paginas/colaboraciones.html" class="footer__enlace">Colaboraciones</a></p>
+            <p><a href="https://eveofficialstore.com/" class="footer__enlace">Tienda</a></p>
+            <p><a href="./paginas/contacto.html" class="footer__enlace">Contacto</a></p>
+        </div>
+    </footer>
+
+</body>

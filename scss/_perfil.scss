@@ -1,0 +1,40 @@
+/* PERFIL GRID */
+
+#grilla__perfil {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "img__perfil"
+    "section"
+    "hr"
+    "footer"
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+/* PERFIL */
+
+.imagenes__perfil {
+    text-align: center;
+}
+
+img.biografia__imagenEveNombre {
+    max-width: 20%;
+}
+
+img.biografia__imagenEve {
+    border-radius: 100%;
+    box-shadow: 0 0 20px 0 black;
+    max-width: 40%;
+}
+
+p.biografia__titulo {
+    font-size: 1.8rem;
+}
+
+.biografia__texto {
+    text-align: center;
+    padding: 1rem 1rem;
+    font-size: .9rem;
+}

@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Serif JP', serif;
+    background-color: #111;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+   list-style: none;
+   color: white; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    margin: .5rem 0;
+}
+
+hr {
+    max-width: 50%;
+    margin: 1rem auto;
+}
+
+/* GRID NOMBRES */
+
+header {
+    grid-area: header;
+}
+
+.img__principal {
+    grid-area: img__principal;
+}
+
+hr {
+    grid-area: hr;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/* GRID NOMBRES PERFIL */
+
+.imagenes__perfil {
+    grid-area: img__perfil;
+}
+
+section {
+    grid-area: section;
+}
+
+/* GRID NOMBRES DISCOGRAFIA */
+
+.discografia__titulo {
+    grid-area: discografia__titulo;
+}
+
+.navegacion__principal {
+    grid-area: navegacion__discos;
+}
+
+/* GRID COLABORACIONES */
+
+.colaboraciones__titulo {
+    grid-area: colaboraciones__titulo;
+}
+
+.colaboraciones__conteiner {
+    grid-area: colaboraciones__conteiner;
+}
+
+/* GRID INDEX */
+
+#grilla__index {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "img__principal"
+    "main"
+    "hr"
+    "footer"
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+/* HEADER */
+
+.showcase {
+    text-align: center;
+}
+
+.showcase__logo img {
+    max-width: 40%;
+    margin: 1rem 0 0 0;
+}
+
+.showcase__navList li {
+    padding: .5rem;
+    font-size: .8rem;
+}
+
+/* IMAGEN LOGO */
+
+.imagen__main {
+    text-align: center;
+}
+
+.imagen__main img {
+    max-width: 99%;
+    box-shadow: 0 0 20px 0 black;
+}
+
+/* IMAGEN PIES */
+
+.pies__imagen {
+    text-align: center;    
+}
+
+.pies__imagen img {
+    max-width: 40%;
+    padding: 0 0 1rem 0;
+}
+
+/* BIOGRAFIA RESUMEN INDEX */
+
+.biografia__conteiner {
+    text-align: center;
+}
+
+img.biografia__imagenEveNombre {
+    margin: 1rem 0;
+}
+
+img.biografia__eveBio {
+    max-width: 40%;
+    box-shadow: 0 0 20px 0 black;
+}
+
+.biografia__eveNombre {
+    font-size: 2rem;
+    letter-spacing: .3rem;
+}
+
+.biografia__eveInicio {
+    max-width: 90%;
+    margin: .5rem auto;
+}
+
+p.biografia__eveInicio {
+    font-size: .9rem;
+}
+
+/* FOOTER */
+
+footer {
+    display: grid;
+    grid-template-columns: 9.375rem 9.375rem;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    text-align: center;
+}
+
+footer div {
+    margin: 1rem 0;
+}
+
+.footer__redesSociales i {
+    padding: .5rem;
+}
