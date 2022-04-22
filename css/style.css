@@ -14,11 +14,13 @@ ul {
   justify-content: center; }
 
 li {
+  text-decoration: none;
   list-style: none;
   color: white; }
 
 a {
   text-decoration: none;
+  list-style: none;
   color: white; }
 
 nav {
@@ -87,18 +89,16 @@ section {
 /* IMAGEN LOGO */
 .imagen__main {
   text-align: center; }
-
-.imagen__main img {
-  max-width: 99%;
-  box-shadow: 0 0 20px 0 black; }
+  .imagen__main img {
+    max-width: 99%;
+    box-shadow: 0 0 1.2rem 0 black; }
 
 /* IMAGEN PIES */
 .pies__imagen {
   text-align: center; }
-
-.pies__imagen img {
-  max-width: 40%;
-  padding: 0 0 1rem 0; }
+  .pies__imagen img {
+    max-width: 40%;
+    padding: 0 0 1rem 0; }
 
 /* BIOGRAFIA RESUMEN INDEX */
 .biografia__conteiner {
@@ -109,7 +109,7 @@ img.biografia__imagenEveNombre {
 
 img.biografia__eveBio {
   max-width: 40%;
-  box-shadow: 0 0 20px 0 black; }
+  box-shadow: 0 0 1.2rem 0 black; }
 
 .biografia__eveNombre {
   font-size: 2rem;
@@ -118,9 +118,8 @@ img.biografia__eveBio {
 .biografia__eveInicio {
   max-width: 90%;
   margin: .5rem auto; }
-
-p.biografia__eveInicio {
-  font-size: .9rem; }
+  .biografia__eveInicio p {
+    font-size: .9rem; }
 
 /* FOOTER */
 footer {
@@ -129,9 +128,8 @@ footer {
   grid-template-rows: auto auto;
   justify-content: center;
   text-align: center; }
-
-footer div {
-  margin: 1rem 0; }
+  footer div {
+    margin: 1rem 0; }
 
 .footer__redesSociales i {
   padding: .5rem; }
@@ -152,7 +150,7 @@ img.biografia__imagenEveNombre {
 
 img.biografia__imagenEve {
   border-radius: 100%;
-  box-shadow: 0 0 20px 0 black;
+  box-shadow: 0 0 1.2rem 0 black;
   max-width: 40%; }
 
 p.biografia__titulo {
@@ -189,7 +187,8 @@ p.biografia__titulo {
   text-align: center; }
 
 .discografia__canciones a img {
-  width: 16rem; }
+  width: 16rem;
+  box-shadow: 0 0 1.2rem 0 black; }
 
 .discografia__canciones p {
   font-size: .8rem;
@@ -198,11 +197,10 @@ p.biografia__titulo {
 .discografia__canciones {
   filter: grayscale(0);
   transition: 1s; }
-
-.discografia__canciones:hover {
-  cursor: pointer;
-  filter: grayscale(100%);
-  transition: 1s; }
+  .discografia__canciones:hover {
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: 1s; }
 
 /* GRID COLABORACIONES */
 #grilla__colaboraciones {
@@ -223,7 +221,7 @@ p.biografia__titulo {
   color: black;
   width: 17rem;
   margin: 1rem;
-  box-shadow: 0 0 20px 0 black; }
+  box-shadow: 0 0 1.2rem 0 black; }
 
 .colaboraciones__titulo {
   font-size: 1.8rem;
@@ -247,13 +245,13 @@ p.biografia__titulo {
   padding: .5rem 0; }
 
 .colaboracion__videoYoutube iframe {
-  box-shadow: 0 0 20px 0 black;
+  box-shadow: 0 0 1.2rem 0 black;
   width: 14rem;
   height: auto; }
 
 .colaboracion__imagen a img {
   width: 13rem;
-  box-shadow: 0 0 20px 0 black; }
+  box-shadow: 0 0 1.2rem 0 black; }
 
 /* CONTACTO */
 .contacto__titulo {
@@ -300,7 +298,7 @@ textarea {
     max-width: 20%; }
   img.biografia__eveBio {
     max-width: 40%;
-    box-shadow: 0 0 20px 0 black; }
+    box-shadow: 0 0 1.2rem 0 black; }
   /* PERFIL */
   img.biografia__imagenEveNombre {
     max-width: 15%; }
@@ -321,7 +319,7 @@ textarea {
     font-size: 1rem; }
   .discografia__canciones a img {
     width: 17rem;
-    box-shadow: 0 0 20px 0 black; }
+    box-shadow: 0 0 1.2rem 0 black; }
   .discografia__canciones p {
     font-size: 1rem;
     padding: .5rem 0 1rem 0; }
@@ -378,7 +376,7 @@ textarea {
   /* BIOGRAFIA RESUMEN */
   img.biografia__eveBio {
     max-width: 30%;
-    box-shadow: 0 0 20px 0 black; }
+    box-shadow: 0 0 1.2rem 0 black; }
   .biografia__eveNombre {
     font-size: 2.5rem;
     padding: .5rem 0; }
@@ -420,7 +418,7 @@ textarea {
   /* BIOGRAFIA RESUMEN */
   img.biografia__eveBio {
     max-width: 25%;
-    box-shadow: 0 0 20px 0 black; }
+    box-shadow: 0 0 1.2rem 0 black; }
   .biografia__eveNombre {
     font-size: 2.5rem; }
   .biografia__eveInicio {

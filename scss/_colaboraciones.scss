@@ -27,7 +27,7 @@
     color: black;
     width: 17rem;
     margin: 1rem;
-    box-shadow: 0 0 20px 0 black;
+    box-shadow: $sombra;
 }
 
 .colaboraciones__titulo {
@@ -57,12 +57,12 @@
 }
 
 .colaboracion__videoYoutube iframe {
-    box-shadow: 0 0 20px 0 black;
+    box-shadow: $sombra;
     width: 14rem;
     height: auto;
 }
 
 .colaboracion__imagen a img {
     width: 13rem;
-    box-shadow: 0 0 20px 0 black;
+    box-shadow: $sombra;
 }

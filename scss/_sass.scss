@@ -1,0 +1,31 @@
+// Variables
+
+$sombra: 0 0 1.2rem 0 black;
+
+// MIXIN
+
+@mixin body-config {
+    font-family: 'Noto Serif JP', serif;
+    background-color: #111;
+    color: white;
+}
+
+@mixin ul-config {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@mixin li-a-config {
+    text-decoration: none;
+    list-style: none;
+    color: white; 
+}
+
+@mixin footer-grid {
+    display: grid;
+    grid-template-columns: 9.375rem 9.375rem;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    text-align: center;
+}

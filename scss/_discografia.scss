@@ -39,6 +39,7 @@
 
 .discografia__canciones a img {
     width: 16rem;
+    box-shadow: $sombra;
 }
 
 .discografia__canciones p {
@@ -49,10 +50,9 @@
 .discografia__canciones {
     filter: grayscale(0);
     transition: 1s;
-}
-
-.discografia__canciones:hover {
-    cursor: pointer;
-    filter: grayscale(100%);
-    transition: 1s;
+    &:hover {
+        cursor: pointer;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
 }

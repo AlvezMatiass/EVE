@@ -5,25 +5,19 @@
 }
 
 body {
-    font-family: 'Noto Serif JP', serif;
-    background-color: #111;
-    color: white;
+    @include body-config;
 }
 
 ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    @include ul-config;
 }
 
 li {
-   list-style: none;
-   color: white; 
+    @include li-a-config;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+    @include li-a-config;
 }
 
 nav {
@@ -122,23 +116,22 @@ section {
 
 .imagen__main {
     text-align: center;
-}
-
-.imagen__main img {
-    max-width: 99%;
-    box-shadow: 0 0 20px 0 black;
+    img {
+        max-width: 99%;
+        box-shadow: $sombra;
+    }
 }
 
 /* IMAGEN PIES */
 
 .pies__imagen {
-    text-align: center;    
+    text-align: center;
+    img {
+        max-width: 40%;
+        padding: 0 0 1rem 0;
+    }    
 }
 
-.pies__imagen img {
-    max-width: 40%;
-    padding: 0 0 1rem 0;
-}
 
 /* BIOGRAFIA RESUMEN INDEX */
 
@@ -152,7 +145,7 @@ img.biografia__imagenEveNombre {
 
 img.biografia__eveBio {
     max-width: 40%;
-    box-shadow: 0 0 20px 0 black;
+    box-shadow: $sombra;
 }
 
 .biografia__eveNombre {
@@ -163,24 +156,18 @@ img.biografia__eveBio {
 .biografia__eveInicio {
     max-width: 90%;
     margin: .5rem auto;
-}
-
-p.biografia__eveInicio {
-    font-size: .9rem;
+    p {
+        font-size: .9rem;
+    }
 }
 
 /* FOOTER */
 
 footer {
-    display: grid;
-    grid-template-columns: 9.375rem 9.375rem;
-    grid-template-rows: auto auto;
-    justify-content: center;
-    text-align: center;
-}
-
-footer div {
-    margin: 1rem 0;
+    @include footer-grid;
+    div {
+        margin: 1rem 0;
+    }
 }
 
 .footer__redesSociales i {
