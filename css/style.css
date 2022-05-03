@@ -260,26 +260,26 @@ p.biografia__titulo {
   text-align: center; }
 
 .contacto__conteiner {
-  background: url(../imagenes/home_main_img35.jpg) no-repeat center center/cover;
   padding: 1rem 0; }
 
 form {
   max-width: 17.5rem;
-  margin: 1rem auto;
-  background-color: #111; }
+  margin: 1rem auto; }
 
 input {
   padding: .1rem;
   background-color: #111;
   color: white;
   border: none;
-  border-bottom: 1px solid white; }
+  border-bottom: 1px solid white;
+  outline: 0; }
 
 textarea {
   padding: .1rem;
   background-color: #111;
   color: white;
-  border: 1px solid white; }
+  border: 1px solid white;
+  outline: 0; }
 
 .formulario div {
   padding: .6rem 0;
@@ -628,7 +628,7 @@ textarea {
   p.biografia__titulo {
     font-size: 2.5rem; }
   .biografia__texto {
-    max-width: 50%;
+    max-width: 45%;
     margin: 0 auto;
     text-align: center;
     padding: 1rem 1rem;
@@ -659,4 +659,12 @@ textarea {
     width: 14rem; }
   /* CONTACTO */
   .contacto__titulo {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+  .formulario p {
+    font-size: 1.3rem; }
+  input {
+    font-size: 1.2rem; }
+  textarea {
+    font-size: 1.2rem; }
+  .form__enviar {
+    font-size: 1.2rem; } }

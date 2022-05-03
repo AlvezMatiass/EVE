@@ -582,7 +582,7 @@
     }
     
     .biografia__texto {
-        max-width: 50%;
+        max-width: 45%;
         margin: 0 auto;
         text-align: center;
         padding: 1rem 1rem;
@@ -634,6 +634,22 @@
 
     .contacto__titulo {
         font-size: 3rem;
+    }
+
+    .formulario p {
+        font-size: 1.3rem;
+    }
+
+    input {
+        font-size: 1.2rem
+    }
+
+    textarea {
+        font-size: 1.2rem;
+    }
+
+    .form__enviar {
+        font-size: 1.2rem;
     }
 
 }
