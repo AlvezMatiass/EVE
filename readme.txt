@@ -1,3 +1,17 @@
+11 de Mayo del 2022
+
+------------------------------------------------
+              ACTUALIZACION FINAL
+------------------------------------------------
+Contacto:
+-Se agrego un fondo a la pagina contacto asi no queda tan vacia.
+General:
+-Se arreglaron los links donde no llevaban a ningun lado.
+-Se quitaron los comentarios asi se hace mas libre la lectura del html.
+-Se agregaron Alt faltantes a imagenes en todo el proyecto.
+
+------------------------------------------------
+
 03 de Mayo del 2022
 
 ------------------------------------------------
