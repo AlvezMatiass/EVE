@@ -44,19 +44,25 @@
         text-align: center;
     }
     
-    .navegacion__discografiaList li {
+    .navegacion__discografiaList {
+        li {
         padding: .5rem .5rem;
-        font-size: 1rem;
+        font-size: 1rem;    
+        }
     }
     
-    .discografia__canciones a img {
+    .discografia__canciones {
+        img {
         width: 17rem;
-        box-shadow: $sombra;
+        box-shadow: $sombra;  
+        }
     }
     
-    .discografia__canciones p {
+    .discografia__canciones {
+        p {
         font-size: 1rem;
-        padding: .5rem 0 1rem 0;
+        padding: .5rem 0 1rem 0;    
+        }  
     }
 
     /* COLABORACIONES */
@@ -86,18 +92,24 @@
         padding: .5rem 0;
     }
     
-    .colaboracion__videoYoutube p {
+    .colaboracion__videoYoutube {
+        p {
         font-size: 1.3rem;
-        padding: .5rem 0;
+        padding: .5rem 0;    
+        }       
     }
     
-    .colaboracion__videoYoutube iframe {
+    .colaboracion__videoYoutube {
+        iframe {
         width: 15rem;
-        height: auto;
+        height: auto;    
+        }
     }
     
-    .colaboracion__imagen a img {
-        width: 14rem;
+    .colaboracion__imagen {
+        img {
+        width: 14rem;   
+        }  
     }
 
     /* CONTACTO */
@@ -117,9 +129,11 @@
         width: 300px;
     }
 
-    .formulario  div {
+    .formulario {
+        div {
         padding: .6rem 0;
-        text-align: center;
+        text-align: center;    
+        }   
     }
 
 }

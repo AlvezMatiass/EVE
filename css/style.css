@@ -255,15 +255,13 @@ p.biografia__titulo {
 
 /* CONTACTO */
 .contacto__conteiner {
-  background: url(../imagenes/home_main_blur.jpg) no-repeat center center/cover; }
+  background: url(../imagenes/home_main_blur.jpg) no-repeat center center/cover;
+  padding: 1rem 0; }
 
 .contacto__titulo {
   font-size: 2.3rem;
   letter-spacing: .3rem;
   text-align: center; }
-
-.contacto__conteiner {
-  padding: 1rem 0; }
 
 form {
   max-width: 17.5rem;
@@ -320,7 +318,7 @@ textarea {
   .navegacion__discografiaList li {
     padding: .5rem .5rem;
     font-size: 1rem; }
-  .discografia__canciones a img {
+  .discografia__canciones img {
     width: 17rem;
     box-shadow: 0 0 1.2rem 0 black; }
   .discografia__canciones p {
@@ -348,7 +346,7 @@ textarea {
   .colaboracion__videoYoutube iframe {
     width: 15rem;
     height: auto; }
-  .colaboracion__imagen a img {
+  .colaboracion__imagen img {
     width: 14rem; }
   /* CONTACTO */
   form {
